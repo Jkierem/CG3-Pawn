@@ -45,11 +45,7 @@ const material = Lib.createColoredMaterial("#aaaaaa");
 const pawn = Lib.createLatheGeometryMesh(material , reverse(points))
 const line = Lib.getWire(pawn)
 
-
-//scene.add(line)
 scene.add(pawn)
-
-const control = {};
 
 function render() {
     requestAnimationFrame( render );

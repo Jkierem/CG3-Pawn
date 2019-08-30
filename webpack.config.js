@@ -1,7 +1,7 @@
 var path = require('path');
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
-const OUTPUT_PATH = path.resolve(__dirname, 'build');
+const OUTPUT_PATH = path.resolve(__dirname, 'docs');
 const ENTRY_POINT = path.resolve(__dirname, 'src/index.js');
 const HTML_TEMPLATE_PATH = path.join(__dirname, "public/index.html")
 const BUNDLE_NAME = 'bundle.js'
